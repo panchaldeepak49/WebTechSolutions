@@ -88,7 +88,7 @@ const ContactUsForm = ({setIsContactUs}) => {
     
              
               <div className='flex justify-center'>
-              <button type="submit" className='py-1 px-6 border-[1px] hover:border-green-600 bg-[#17cf97] hover:bg-orange-400 text-black text-lg  rounded-md ttransition-all duration-300 ease-in-out'
+              <button type="submit" className='py-1 px-6 border-[1px] hover:border-green-600 bg-[#17cf97] hover:bg-orange-400 text-black sm:text-lg  rounded-md ttransition-all duration-300 ease-in-out'
               >Submit</button>
               </div>
 

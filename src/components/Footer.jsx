@@ -13,7 +13,7 @@ const Footer = () => {
         
         <div className='pt-5 pl-5 sm:pl-10' >
         <p className='text-xl sm:text-2xl text-orange-500 font-semibold'> Web<span className='italic ml-1 text-white'>Tech</span>  Solutions</p>
-        <p className='mt-2 text-[0.7rem] sm:text-sm text-white'>Address:</p>
+        <p className='mt-2 text-[0.7rem] sm:text-sm text-white'>Address: New Ashok Nagar</p>
         <p className='text-[0.7rem] sm:text-sm text-white'>New Delhi-110073, India</p>
         
 
@@ -49,15 +49,15 @@ const Footer = () => {
 
 
       {/* footer part-5 */}
-    <div className='pt-5 sm:pt-10 pr-10 '>
+    <div className='pt-5 pb-1 sm:pt-10 sm:pb-0 pr-10 '>
      <div className='flex flex-row items-center  sm:gap-4 gap-2'>
      <img src={emailImg} className='sm:w-[12%] w-[9%] sm:h-[0.8rem] h-[0.5rem]'></img>
      <p className='text-white sm:text-xs text-[0.7rem] '>webtechsolutions@gmail.com</p>
      </div>
 
-    <div className='flex flex-row items-center sm:gap-4 gap-2 mt-2'>
+    <div className='flex flex-row items-center sm:gap-4 gap-2 sm:mt-2'>
      <img src={phoneImg} className='sm:w-[12%] w-[9%] sm:h-[0.8rem] h-[0.5rem]'></img>
-     <p className='text-white sm:text-xs text-[0.7rem] '>7895689563</p>
+     <p className='text-white sm:text-xs text-[0.7rem] '>8800830327</p>
     </div>
     </div>
     
