@@ -13,8 +13,8 @@ const Footer = () => {
         
         <div className='pt-5 pl-5 sm:pl-10' >
         <p className='text-xl sm:text-2xl text-orange-500 font-semibold'> Web<span className='italic ml-1 text-white'>Tech</span>  Solutions</p>
-        <p className='mt-2 text-sm sm:text-sm text-white'>Address:</p>
-        <p className='text-sm sm:text-sm text-white'>New Delhi-110073, India</p>
+        <p className='mt-2 text-[0.7rem] sm:text-sm text-white'>Address:</p>
+        <p className='text-[0.7rem] sm:text-sm text-white'>New Delhi-110073, India</p>
         
 
         <div className=' flex gap-1 sm:gap-5 sm:my-5 mt-3'>
@@ -32,7 +32,7 @@ const Footer = () => {
        
        <div className='w-[60%] sm:w-[50%] min-[400px]:flex justify-between pl-5'>
        {/* footer part-2 */}
-        <div className='pt-10'>
+        <div className='pt-5 sm:pt-10'>
             <p className='text-white text-sm sm:text-lg '>Our Specialisation</p>
             <li className='mt-2 text-white text-[0.7rem] sm:text-sm'>Website Development</li>
             <li className='text-white text-[0.7rem] sm:text-sm'>Admin Panel Solutions</li>
@@ -40,7 +40,7 @@ const Footer = () => {
         </div>
 
         {/* footer part-3 */}
-        <div className='pt-10'>
+        <div className='pt-5 sm:pt-10'>
             <p className='text-white text-sm sm:text-lg '>Help</p>
             <p className='mt-2 text-white text-[0.7rem] sm:text-sm'>Contact Us</p>
             <p className='text-white text-[0.7rem] sm:text-sm'>FAQ</p>
@@ -49,15 +49,15 @@ const Footer = () => {
 
 
       {/* footer part-5 */}
-    <div className='pt-10 pr-10 '>
-     <div className='flex flex-col sm:flex-row sm:gap-4 gap-2'>
+    <div className='pt-5 sm:pt-10 pr-10 '>
+     <div className='flex flex-row items-center  sm:gap-4 gap-2'>
      <img src={emailImg} className='sm:w-[12%] w-[9%] sm:h-[0.8rem] h-[0.5rem]'></img>
-     <p className='text-white sm:text-xs text-[0.6rem] '>webtechsolutions@gmail.com</p>
+     <p className='text-white sm:text-xs text-[0.7rem] '>webtechsolutions@gmail.com</p>
      </div>
 
-    <div className='flex flex-col sm:flex-row sm:gap-4 gap-2 mt-2'>
+    <div className='flex flex-row items-center sm:gap-4 gap-2 mt-2'>
      <img src={phoneImg} className='sm:w-[12%] w-[9%] sm:h-[0.8rem] h-[0.5rem]'></img>
-     <p className='text-white sm:text-xs text-[0.5rem] '>7895689563</p>
+     <p className='text-white sm:text-xs text-[0.7rem] '>7895689563</p>
     </div>
     </div>
     
