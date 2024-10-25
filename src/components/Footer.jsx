@@ -52,7 +52,7 @@ const Footer = () => {
     <div className='pt-5 pb-1 sm:pt-10 sm:pb-0 pr-10 '>
      <div className='flex flex-row items-center  sm:gap-4 gap-2'>
      <img src={emailImg} className='sm:w-[12%] w-[9%] sm:h-[0.8rem] h-[0.5rem]'></img>
-     <p className='text-white sm:text-xs text-[0.7rem] '>webtechsolutions@gmail.com</p>
+     <p className='text-white sm:text-xs text-[0.7rem] '>webtechsolutions95@gmail.com</p>
      </div>
 
     <div className='flex flex-row items-center sm:gap-4 gap-2 sm:mt-2'>

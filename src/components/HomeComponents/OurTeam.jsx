@@ -12,7 +12,7 @@ const OurTeam = () => {
         </div>
         <div className=' sm:w-[50%] flex flex-col items-center'>    {/* bg-green-400 */}
         {/* <p className=' text-xl'>Meet Our Team </p> */}
-            <p className='mt-5 sm:mt-2  sm:w-[70%] text-base bg-gray-300 rounded-md p-4 mx-6'>Team at Web Tech starts everyday by believing in the quote "Best is yet to come",
+            <p className=' mt-5  sm:w-[70%] text-base bg-gray-300 rounded-md p-4 mx-6'>Team at Web Tech starts everyday by believing in the quote "Best is yet to come",
                 thus overachieving yesterday's mark to create new success story everyday.We thrive on collaboration,
                 innovation and a shared committment to deliver high quality solutions. We focus on continuous learning 
                 and improvements .We embrace challenges as opportunities to grow and excel.Together we work seamlessly
