@@ -14,7 +14,7 @@ const SliderImages1 = () => {
 
   return (
     <>
-      <p className='my-12 flex justify-center text-xl sm:text-4xl font-Rubik'>Looking to bring your idea to life. </p>
+      <p className='mt-8 sm:mt-12 flex justify-center text-xl sm:text-4xl font-Rubik'>Looking to bring your idea to life. </p>
       <Swiper
         effect={'coverflow'}
         grabCursor={true}

@@ -6,9 +6,9 @@ const WhyChooseUs = () => {
 
   return (
     <>
-      <p className='mt-10 flex justify-center text-2xl sm:text-4xl font-Rubik '>Why choose us ?</p>
+      <p className='mt-5 sm:mt-10 flex justify-center text-2xl sm:text-4xl font-Rubik '>Why choose us ?</p>
      
-     <div className='mt-10 px-10 grid grid-cols-1 sm:grid-cols-2 gap-2 '>
+     <div className='mt-5 sm:mt-10 px-10 grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-2 '>
        <div className=' w-[100%] flex justify-center sm:justify-end items-center text-lg '>  {/* bg-red-400 */}
          <p className='sm:w-[70%] text-base bg-blue-200 rounded-md p-4 '>
            We are working with Web Development since 2022.Over this time, we've successfully completed numerous projects,

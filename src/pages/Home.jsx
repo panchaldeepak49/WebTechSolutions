@@ -1,5 +1,5 @@
 import React from 'react'
-import SliderImages from '../components/SliderImages1/SliderImages1'
+import SliderImages1 from '../components/SliderImages1/SliderImages1'
 import OurTeam from '../components/HomeComponents/OurTeam'
 import WhyChooseUs from '../components/HomeComponents/WhyChooseUs'
 import OurProducts from '../components/HomeComponents/OurProducts'
@@ -10,7 +10,7 @@ const Home = () => {
     <>
     <OurProducts />
     <WhyChooseUs />
-    <SliderImages />
+    <SliderImages1 />
    
     <OurTeam />
     <GoogleMap />
