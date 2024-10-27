@@ -8,7 +8,7 @@ import phoneImg from '/Images/phone.png'
 const Footer = () => {
   return (
     <>
-    <div className='mt-5 min-[400px]:flex justify-between bg-[#002B46]'>
+    <div className='mt-5 min-[420px]:flex justify-between bg-[#002B46]'>
      {/* footer part-1 */}
         
         <div className='pt-5 pl-5 sm:pl-10' >
@@ -30,7 +30,7 @@ const Footer = () => {
      </div>
      </div>
        
-       <div className='w-[60%] sm:w-[50%] min-[400px]:flex justify-between pl-5'>
+       <div className='w-[60%] sm:w-[50%] min-[420px]:flex justify-between pl-5'>
        {/* footer part-2 */}
         <div className='pt-5 sm:pt-10'>
             <p className='text-white text-sm sm:text-lg '>Our Specialisation</p>

@@ -1,6 +1,7 @@
 import React,{ useState,useRef } from 'react'
 import InputField from './Global/InputField';
 import emailjs from '@emailjs/browser';
+import { message } from 'antd';
 
 
 const ContactUsForm = ({setIsContactUs}) => {
@@ -11,20 +12,25 @@ const ContactUsForm = ({setIsContactUs}) => {
     const[query,setQuery] = useState("");
 
     const form = useRef();
-    // const viren = process.env.REACT_APP_SERVICE_ID 
+    
+    // const viren = import.meta.env.VITE_SERVICE_ID
     // console.log(viren);
 
     const sendEmail = (e) => {
         e.preventDefault();
     
         emailjs
-          .sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, form.current, {
-            publicKey: process.env.REACT_APP_PUBLIC_KEY,
-          })
+          .sendForm(
+            import.meta.env.VITE_SERVICE_ID, 
+            import.meta.env.VITE_TEMPLATE_ID, 
+            form.current, {
+            publicKey: import.meta.env.VITE_PUBLIC_KEY,
+            })
           .then(
             () => {
               console.log('SUCCESS!');
               setIsContactUs(false);
+              message.success("Message sent successfully.")
             },
             (error) => {
               console.log('FAILED...', error.text);
